@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: rgb(13, 173, 13);
+  color: white;
+  padding: 10px;
+}
+
+.phone-number p {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.phone-number input {
+  text-align: left;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 250px;
+  height: 25px;
+  left: 50%;
+  top: 10px;
+  margin-bottom: 20px;
+  transform: translate(-50%, 0);
+  background-color: white;
+  padding: 5px;
+  border: 1px;
+  border-color: gray;
+  border-style: inset;
+}
+
+button {
+  font-size: 20px;
+  background-color: rgb(13, 173, 13);
+  color: white;
+  width: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 2px;
+  border-color: black;
+  border-style: outset;
+}
+
+footer {
+  top: 90%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  background-color: rgb(13, 173, 13);
+  height: 10%;
+  color: white;
+}
